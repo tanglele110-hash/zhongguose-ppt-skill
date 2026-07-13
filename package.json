@@ -8,7 +8,8 @@
     "node": ">=18"
   },
   "scripts": {
-    "validate:package": "node scripts/validate-package.mjs skills/zhongguose-ppt-skill"
+    "validate:package": "node scripts/validate-package.mjs skills/zhongguose-ppt-skill",
+    "capture:preview": "node scripts/capture-preview.mjs"
   },
   "devDependencies": {
     "playwright-core": "1.61.1"
