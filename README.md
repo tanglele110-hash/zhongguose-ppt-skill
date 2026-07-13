@@ -27,23 +27,39 @@ The seed template ships a full 16:9 interactive shell and core layout samples. S
 
 ![章节扉页与框架导航](docs/preview/template-02-divider.png)
 
-**内容页 · Content layouts**
+**内容页 · Content layouts**（16:9 全宽展示，避免表格挤压比例）
 
-| 四模块 + 图 | 三洞察 + 图带 |
-| --- | --- |
-| ![四模块内容页](docs/preview/template-03-cards.png) | ![三洞察内容页](docs/preview/template-05-grid.png) |
+四模块 + 图
 
-| 对照分屏 | 左右陈述 |
-| --- | --- |
-| ![对照分屏内容页](docs/preview/template-06-duo.png) | ![左右分屏陈述页](docs/preview/template-08-split.png) |
+![四模块内容页](docs/preview/template-03-cards.png)
 
-| 模块网格 | 时间线 |
-| --- | --- |
-| ![模块网格内容页](docs/preview/template-09-modules.png) | ![时间线内容页](docs/preview/template-11-timeline.png) |
+三洞察 + 图带
 
-| 台账 / 路线图 | 收尾页 |
-| --- | --- |
-| ![台账路线图页](docs/preview/template-12-roadmap.png) | ![收尾页](docs/preview/template-13-closing.png) |
+![三洞察内容页](docs/preview/template-05-grid.png)
+
+对照分屏
+
+![对照分屏内容页](docs/preview/template-06-duo.png)
+
+左右陈述
+
+![左右分屏陈述页](docs/preview/template-08-split.png)
+
+模块网格
+
+![模块网格内容页](docs/preview/template-09-modules.png)
+
+时间线
+
+![时间线内容页](docs/preview/template-11-timeline.png)
+
+台账 / 路线图
+
+![台账路线图页](docs/preview/template-12-roadmap.png)
+
+收尾页
+
+![收尾页](docs/preview/template-13-closing.png)
 
 ### 本地打开 HTML 示例 / Open the live demos
 
