@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.ci-deck/
+.tmp/
+dist/
+*.log
