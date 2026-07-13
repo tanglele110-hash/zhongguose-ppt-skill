@@ -117,8 +117,11 @@ const picks = [
   [1, "template-02-divider.png"],
   [2, "template-03-cards.png"],
   [4, "template-05-grid.png"],
+  [5, "template-06-duo.png"],
   [7, "template-08-split.png"],
+  [8, "template-09-modules.png"],
   [10, "template-11-timeline.png"],
+  [11, "template-12-roadmap.png"],
   [12, "template-13-closing.png"],
 ];
 for (const [i, name] of picks) {

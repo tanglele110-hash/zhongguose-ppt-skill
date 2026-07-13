@@ -8,7 +8,7 @@ Build source-faithful, Chinese-led bilingual presentation systems with tradition
 
 1. **逻辑优先，不是装饰优先** — 文稿锁定 → 源逻辑地图 → 逐页内容合同 → 再选版式与中国色。
 2. **中国色可感知** — 六色封面色卡 + 真实模板页，选色所见即所得。
-3. **中文主导的双语** — 适合国内汇报、对外简介并存的场景，而不是「两行一样大的中英文」。
+3. **中文主导的双语** — 适合国内汇报、对外简介并存的场景。
 4. **框架导航当结构工具** — 观众始终知道整份汇报讲什么、讲到哪。
 5. **HTML 可演示，PPT 可承接** — 要现场翻页用 HTML；要进 Keynote/PowerPoint 则交付逻辑与版式规范。
 6. **可校验、可复用** — CI 与脚本覆盖包结构、字体、资源和视口溢出。
@@ -29,13 +29,21 @@ The seed template ships a full 16:9 interactive shell and core layout samples. S
 
 **内容页 · Content layouts**
 
-| 四模块 + 图 | 左右分屏陈述 |
+| 四模块 + 图 | 三洞察 + 图带 |
 | --- | --- |
-| ![四模块内容页](docs/preview/template-03-cards.png) | ![左右分屏内容页](docs/preview/template-08-split.png) |
+| ![四模块内容页](docs/preview/template-03-cards.png) | ![三洞察内容页](docs/preview/template-05-grid.png) |
 
-| 时间线 | 收尾页 |
+| 对照分屏 | 左右陈述 |
 | --- | --- |
-| ![时间线内容页](docs/preview/template-11-timeline.png) | ![收尾页](docs/preview/template-13-closing.png) |
+| ![对照分屏内容页](docs/preview/template-06-duo.png) | ![左右分屏陈述页](docs/preview/template-08-split.png) |
+
+| 模块网格 | 时间线 |
+| --- | --- |
+| ![模块网格内容页](docs/preview/template-09-modules.png) | ![时间线内容页](docs/preview/template-11-timeline.png) |
+
+| 台账 / 路线图 | 收尾页 |
+| --- | --- |
+| ![台账路线图页](docs/preview/template-12-roadmap.png) | ![收尾页](docs/preview/template-13-closing.png) |
 
 ### 本地打开 HTML 示例 / Open the live demos
 
