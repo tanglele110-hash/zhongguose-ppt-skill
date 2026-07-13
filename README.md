@@ -4,6 +4,15 @@
 
 Build source-faithful, Chinese-led bilingual presentation systems with traditional Chinese color themes. Generate interactive HTML decks with local runtime assets, or use the same logic and layout framework for PPT production.
 
+## 差异化亮点
+
+1. **逻辑优先，不是装饰优先** — 文稿锁定 → 源逻辑地图 → 逐页内容合同 → 再选版式与中国色。
+2. **中国色可感知** — 六色封面色卡 + 真实模板页，选色所见即所得。
+3. **中文主导的双语** — 适合国内汇报、对外简介并存的场景，而不是「两行一样大的中英文」。
+4. **框架导航当结构工具** — 观众始终知道整份汇报讲什么、讲到哪。
+5. **HTML 可演示，PPT 可承接** — 要现场翻页用 HTML；要进 Keynote/PowerPoint 则交付逻辑与版式规范。
+6. **可校验、可复用** — CI 与脚本覆盖包结构、字体、资源和视口溢出。
+
 ## 效果预览 / Preview
 
 种子模板 `assets/template-zhongguose/index.html` 自带完整 16:9 交互外壳与核心版式样例。以下为真实页面截图（占位文案需按源文稿替换）。
@@ -75,15 +84,6 @@ One theme per deck, applied globally via `--accent` and `--accent-on`. Light the
 
 完整 token 与使用规则见 [`skills/zhongguose-ppt-skill/references/visual-system.md`](skills/zhongguose-ppt-skill/references/visual-system.md)。  
 选色时打开 [`theme-cover-gallery.html`](skills/zhongguose-ppt-skill/assets/theme-cover-gallery.html) 对照真实封面效果。
-
-## 差异化亮点
-
-1. **逻辑优先，不是装饰优先** — 文稿锁定 → 源逻辑地图 → 逐页内容合同 → 再选版式与中国色。
-2. **中国色可感知** — 六色封面色卡 + 真实模板页，选色所见即所得。
-3. **中文主导的双语** — 适合国内汇报、对外简介并存的场景，而不是「两行一样大的中英文」。
-4. **框架导航当结构工具** — 观众始终知道整份汇报讲什么、讲到哪。
-5. **HTML 可演示，PPT 可承接** — 要现场翻页用 HTML；要进 Keynote/PowerPoint 则交付逻辑与版式规范。
-6. **可校验、可复用** — CI 与脚本覆盖包结构、字体、资源和视口溢出。
 
 ## 适用场景 / Use cases
 
