@@ -76,31 +76,13 @@ One theme per deck, applied globally via `--accent` and `--accent-on`. Light the
 完整 token 与使用规则见 [`skills/zhongguose-ppt-skill/references/visual-system.md`](skills/zhongguose-ppt-skill/references/visual-system.md)。  
 选色时打开 [`theme-cover-gallery.html`](skills/zhongguose-ppt-skill/assets/theme-cover-gallery.html) 对照真实封面效果。
 
-## 与其他 PPT Skill 的差异 / What makes this different
+## 差异化亮点
 
-本 Skill 的产品与交互概念参考了 [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)，但定位与交付物不同：不是「通用 Markdown → 幻灯片套壳」，而是 **中式文化汇报体系**——逻辑在先、中国色为气、中文为主。
-
-Inspired by guizang-ppt-skill, but positioned as a Chinese-cultural reporting system: logic first, one traditional color, Chinese-led bilingual hierarchy—not a generic Markdown-to-slides wrapper.
-
-| 维度 | 本 Skill（zhongguose） | 常见通用 PPT Skill |
-| --- | --- | --- |
-| 触发边界 | 中华文化内容 **或** 中国色/中式审美诉求；仅中文或中国市场 **不** 自动触发 | 通常凡 Markdown/大纲即触发 |
-| 第一责任 | **忠于源文稿逻辑**；先锁定文稿与润色尺度，再做页级架构 | 往往先套模板版式，再填文字 |
-| 章节结构 | 从源文证据提炼分组；不默认 WHY/WHAT/HOW 或起承转合 | 易套固定叙事模板 |
-| 视觉系统 | **六套中国传统色** + 纸白秩序 + 齐伋体封面字；一 deck 一色 | 多主题混搭或西式配色板 |
-| 中英关系 | **中文主导**：主标题纯中文；英文更小、作辅助，不与中文等大争锋 | 常做成同级双语双标题 |
-| 结构导航 | 左上 **框架导航** 来自一级版块，标明「整份逻辑 + 当前所在」 | 多为页码或装饰标签 |
-| 交付模式 | **HTML 交互演示** 与 **PPT 逻辑/版式参考** 双模式；本身不写 `.pptx` | 多只追求生成幻灯片文件 |
-| 离线核心 | Motion / Lucide / 封面 WOFF2 **本地分发**；断网仍可翻页与阅读 | 常重度依赖 CDN |
-| 质量门禁 | 字体子集与字形、主题对比度、结构合同、双分辨率溢出检查 | 校验较弱或仅人工预览 |
-
-**一句话亮点 / Highlights**
-
-1. **逻辑优先，不是装饰优先** — 文稿锁定 → 源逻辑地图 → 逐页内容合同 → 再选版式与中国色。  
-2. **中国色可感知** — 六色封面色卡 + 真实模板页，选色所见即所得。  
-3. **中文主导的双语** — 适合国内汇报、对外简介并存的场景，而不是「两行一样大的中英文」。  
-4. **框架导航当结构工具** — 观众始终知道整份汇报讲什么、讲到哪。  
-5. **HTML 可演示，PPT 可承接** — 要现场翻页用 HTML；要进 Keynote/PowerPoint 则交付逻辑与版式规范。  
+1. **逻辑优先，不是装饰优先** — 文稿锁定 → 源逻辑地图 → 逐页内容合同 → 再选版式与中国色。
+2. **中国色可感知** — 六色封面色卡 + 真实模板页，选色所见即所得。
+3. **中文主导的双语** — 适合国内汇报、对外简介并存的场景，而不是「两行一样大的中英文」。
+4. **框架导航当结构工具** — 观众始终知道整份汇报讲什么、讲到哪。
+5. **HTML 可演示，PPT 可承接** — 要现场翻页用 HTML；要进 Keynote/PowerPoint 则交付逻辑与版式规范。
 6. **可校验、可复用** — CI 与脚本覆盖包结构、字体、资源和视口溢出。
 
 ## 适用场景 / Use cases
